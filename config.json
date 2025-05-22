@@ -1,18 +1,18 @@
 {
   "map": {
-    "extent": [0,0],
-    "basemap": "topo",
-    "zoom": 2
+    "extent": [-92.8458,48.4711],
+    "basemap": "satellite",
+    "zoom": 10
   },
   "navbar": {
-    "title": "CDMI HGIS Mobile App",
+    "title": "Voyageurs National Park 50 years of Stories",
     "backgroundColor": "#285756",
     "logo": "assets/dmilogo.png",
     "textColor": "#ffffff"  
   },
   "layers": {
     "storiesLayerUrl": "https://portal1-geo.sabu.mtu.edu/server/rest/services/Hosted/CDMI_Story_Template_Layer/FeatureServer/0",
-    "indexLayerUrl": "https://portal1-geo.sabu.mtu.edu/server/rest/services/Hosted/KeTT_Mobile_Map_Indexes/FeatureServer/0"
+    "indexLayerUrl": "https://portal1-geo.sabu.mtu.edu/server/rest/services/Hosted/Voyageurs_National_Park_Map_Index_Layer/FeatureServer"
   },
   "markers": {
     "storyMarkerUrl": "assets/marker_story.png",
@@ -20,8 +20,8 @@
     "storyMarkerHeight": "20px"
   },
   "splashScreen": {
-    "visible": true,
-    "title": "HGIS Mobile App",
+    "visible": false,
+    "title": "Digital Storytelling Application",
     "titleColor": "#ffffff",
     "backgroundColor": "#285756",
     "textColor": "#ffffff",
